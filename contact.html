@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Contact — ProFusion Home Solutions</title>
+<meta name="description" content="Book a free 30-minute call or schedule a no-cost Mass Save Home Energy Assessment." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..700,0..100,0..1;1,9..144,300..700,0..100,0..1&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav__inner">
+    <a class="brand" href="index.html">
+      <svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="6" fill="#2E4A3C"/><g stroke="#C4582A" stroke-width="1.5" stroke-linecap="round"><path d="M16 3v5"/><path d="M16 24v5"/><path d="M3 16h5"/><path d="M24 16h5"/><path d="M7 7l3.5 3.5"/><path d="M21.5 21.5L25 25"/><path d="M7 25l3.5-3.5"/><path d="M21.5 10.5L25 7"/></g></svg>
+      <span class="brand__name">Pro<span>Fusion</span></span>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="services.html">Services</a>
+      <a href="rebates.html">Rebates</a>
+      <a href="index.html#process">Process</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="is-current">Contact</a>
+    </nav>
+    <div class="nav__cta"><a class="btn btn--primary" href="tel:+16175550140">Call (617) 555-0140</a></div>
+  </div>
+</header>
+
+<section class="page-head">
+  <div class="wrap">
+    <div class="page-head__meta"><span class="eyebrow"><a href="index.html">Home</a> · Contact</span></div>
+    <h1>Tell us about your house. We'll <span class="ital">call you back</span> within one business day.</h1>
+    <p class="lede">No sales tactics, no pressure. If we aren't the right fit we'll tell you so — and point you to somebody who is.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="contact-grid">
+
+      <!-- FORM -->
+      <form class="form reveal" id="contactForm" novalidate onsubmit="return false;">
+        <div class="field">
+          <label for="name">Your name</label>
+          <input id="name" name="name" type="text" autocomplete="name" required />
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required />
+          </div>
+          <div class="field">
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" type="tel" autocomplete="tel" />
+          </div>
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label for="town">Town</label>
+            <input id="town" name="town" type="text" placeholder="e.g. Newton" />
+          </div>
+          <div class="field">
+            <label for="utility">Electric utility</label>
+            <select id="utility" name="utility">
+              <option>Eversource</option>
+              <option>National Grid</option>
+              <option>Unitil</option>
+              <option>Cape Light Compact</option>
+              <option>Municipal light (Concord, Belmont, etc.)</option>
+              <option>Not sure</option>
+            </select>
+          </div>
+        </div>
+        <div class="field">
+          <label for="interest">What brought you here?</label>
+          <select id="interest" name="interest">
+            <option>I want a free Mass Save assessment</option>
+            <option>Heat pump — replacing furnace / AC</option>
+            <option>Insulation &amp; air sealing</option>
+            <option>Solar and/or battery</option>
+            <option>Heat-pump water heater</option>
+            <option>EV charger install</option>
+            <option>Not sure yet — I want to talk</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="notes">Anything else we should know?</label>
+          <textarea id="notes" name="notes" placeholder="Age of house, current heating fuel, anything loud, cold, or broken…"></textarea>
+        </div>
+        <div class="row" style="justify-content:space-between; align-items:center;">
+          <span class="mono" style="color:var(--muted);">We reply within 1 business day · ET.</span>
+          <button class="btn btn--primary" type="submit">Send it <svg class="btn__arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h12M9 3l5 5-5 5"/></svg></button>
+        </div>
+        <div id="formStatus" class="mono" style="margin-top:8px;"></div>
+      </form>
+
+      <!-- RIGHT-HAND COLUMN -->
+      <div class="contact-stack reveal">
+        <div class="contact-card">
+          <span class="eyebrow">Talk to a person</span>
+          <h3 style="margin-top:10px;">(617) 555-0140</h3>
+          <p>Monday through Friday, 8am – 6pm ET. Celia answers. She knows what to ask.</p>
+        </div>
+        <div class="contact-card">
+          <span class="eyebrow">Write to us</span>
+          <h3 style="margin-top:10px;"><a href="mailto:hello@profusion.solutions" style="color:var(--ink);">hello@profusion.solutions</a></h3>
+          <p>For detailed questions, attach the last two bills and photos of your panel and furnace. It speeds things up.</p>
+        </div>
+        <div class="contact-card">
+          <span class="eyebrow">In person</span>
+          <h3 style="margin-top:10px;">Cambridge, MA &amp; NYC</h3>
+          <p class="mono" style="font-size:12.5px; color:var(--muted); margin-bottom:10px;">Operations<br/>738 Massachusetts Ave, 3rd fl<br/>Cambridge, MA 02139</p>
+          <p class="mono" style="font-size:12.5px; color:var(--muted);">Headquarters<br/>115 W 30th Street, Suite 800<br/>New York, NY 10001</p>
+        </div>
+        <div class="contact-card" style="background:var(--bg-dark); color:#E8E3D6; border-color:rgba(243,238,229,0.18);">
+          <span class="eyebrow" style="color:#B7B0A0;">Service area</span>
+          <h3 style="color:#F3EEE5; margin-top:10px;">Most of eastern &amp; central Massachusetts.</h3>
+          <p style="color:#C9C3B5;">Middlesex, Norfolk, Suffolk, Essex, and most of Worcester and Plymouth counties. Cape &amp; Islands and the Berkshires via partner firms.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div>
+        <div class="footer__brand">
+          <svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="6" fill="#C4582A"/><g stroke="#F3EEE5" stroke-width="1.5" stroke-linecap="round"><path d="M16 3v5"/><path d="M16 24v5"/><path d="M3 16h5"/><path d="M24 16h5"/><path d="M7 7l3.5 3.5"/><path d="M21.5 21.5L25 25"/><path d="M7 25l3.5-3.5"/><path d="M21.5 10.5L25 7"/></g></svg>
+          <span class="brand__name">ProFusion</span>
+        </div>
+        <p style="max-width:34ch; margin:0 0 16px;">Whole-home energy retrofits across Massachusetts. Headquartered in New York City.</p>
+        <p class="mono" style="color:#8E8778; font-size:12px;">HQ · 115 W 30th Street, Suite 800<br/>New York, NY 10001</p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html#assessments">Energy assessments</a></li>
+          <li><a href="services.html#insulation">Insulation &amp; air sealing</a></li>
+          <li><a href="services.html#heat-pumps">Heat pumps</a></li>
+          <li><a href="services.html#solar">Solar &amp; storage</a></li>
+          <li><a href="services.html#ev">EV charging</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="rebates.html">Rebate guide</a></li>
+          <li><a href="index.html#process">Our process</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get in touch</h4>
+        <ul>
+          <li><a href="tel:+16175550140">(617) 555-0140</a></li>
+          <li><a href="mailto:hello@profusion.solutions">hello@profusion.solutions</a></li>
+          <li>Mon–Fri · 8a–6p ET</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2026 ProFusion Home Solutions, LLC · MA HIC #194207 · CSL #109442</span>
+      <span>A Mass Save Home Performance Contractor partner.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/script.js" defer></script>
+</body>
+</html>
